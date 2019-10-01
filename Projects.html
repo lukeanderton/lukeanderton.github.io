@@ -20,7 +20,10 @@
 	
 	<script>
 		function display(file) {
-			document.getElementByID("Final").innerHTML = "<iframe src=\"" + file + "\""></iframe>;
+			if(file == "nothing"){
+				
+			}
+			else document.getElementByID("Final").innerHTML = "<iframe src=\"" + file + "\""></iframe>;
 			
 			
 		}
