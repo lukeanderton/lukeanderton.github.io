@@ -16,3 +16,8 @@ img {
 	width: 40%;
 	height: 40%;
 }
+
+.under {
+	padding-left: 25 px;
+	text-decoration: underline;
+}
