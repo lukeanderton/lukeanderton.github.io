@@ -40,3 +40,10 @@ img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+iframe {
+	 width: 80%;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
