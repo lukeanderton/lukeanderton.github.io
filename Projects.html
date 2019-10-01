@@ -8,12 +8,24 @@
     <div class="dropdown">
       <span>Urban Planning</span>
       <div class="dropdown-content">
-        <button type="button">Final Project</button>
+        <button onclick="display("Final Project.pdf")">Final Project</button>
       </div>
     </div>
     <br><br>
-    <iframe src="/Final Exam.pdf">
+	<div id="Final">
+    	<iframe>
+	</div>
     </iframe>
+	
+	
+	<script>
+		function display(file) {
+			var el document.getElementByID("Final");
+			if (el.src!= file) el.src = file;
+			else el.src = null;
+			
+		}
+	
   </body>
 </html>
 
