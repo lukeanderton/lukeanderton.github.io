@@ -8,7 +8,7 @@
     <div class="dropdown">
       <span>Urban Planning</span>
       <div class="dropdown-content">
-        <button onclick= display("Final Project.pdf")>Work Please</button>
+        <button onclick= displayFile("Final Project.pdf")>Work Please</button>
       </div>
     </div>
     <br><br>
@@ -18,11 +18,12 @@
 	
 	
 	<script>
-		function display(file) {
+		function displayFile(file) {
 			if(file == "nothing"){
 				
 			}
-			else document.getElementByID("Final").innerHTML = "<iframe src=\"Final Project.pdf\"></iframe>";
+			else {document.getElementByID("Final").innerHTML = "<iframe src=\"Final Project.pdf\"></iframe>";
+		}
 			
 			
 		}
