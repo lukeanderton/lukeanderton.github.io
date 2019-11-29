@@ -5,8 +5,9 @@ body {
 
 
 h1 {
-	color: LightSeaGreen;
+	color: Maroon;
 	text-align: center;
+	
 }
 
 img {
@@ -15,6 +16,14 @@ img {
 	margin-right: auto;
 	width: 40%;
 	height: 40%;
+}
+
+a:link{
+	color: maroon;
+}
+
+a:visited{
+	color: maroon;
 }
 
 .under {
