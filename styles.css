@@ -53,3 +53,10 @@ a:visited{
   display: block;
 }
 
+iframe {
+	 width: 80%;
+	height: 90%;
+	margin-left: 4em;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
