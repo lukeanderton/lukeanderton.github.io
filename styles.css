@@ -4,11 +4,12 @@ body {
 	text-align: justify;
 	width: 80%;
 	margin-left: 4em;
+	background-color: Marron;
 }
 
 
 h1 {
-	color: Maroon;
+	color: white;
 	text-align: center;
 	
 }
@@ -22,11 +23,11 @@ img {
 }
 
 a:link{
-	color: maroon;
+	color: blue;
 }
 
 a:visited{
-	color: maroon;
+	color: purple;
 }
 
 .under {
