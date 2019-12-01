@@ -4,7 +4,7 @@ body {
 	text-align: justify;
 	width: 80%;
 	margin-left: 4em;
-	background-color: Maroon;
+	background-color: maroon;
 }
 
 
@@ -12,6 +12,11 @@ h1 {
 	color: white;
 	text-align: center;
 	
+}
+
+p{
+	color: white;
+	text-align: justify;
 }
 
 img {
