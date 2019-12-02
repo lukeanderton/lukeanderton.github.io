@@ -1,18 +1,91 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+	text-align: justify;
+	width: 80%;
+	margin-left: 4em;
+	background-color: rgba(80,0,0);
+}
+
+
 h1 {
-	color: Maroon;
-	border: 2px solid black;
+	color: white;
 	text-align: center;
+}
+
+h3 {
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+h5 {
+	color: white;
+	text-align: center;
+}
+
+p{
+	color: white;
+	text-align: justify;
 }
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;
+	width: 30%;
 	height: 30%;
 }
 
-body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: black;
+a:link{
+	color: beige;
+}
+
+a:visited{
+	color: darkgrey;
+}
+
+.under {
+	padding-left: 25 px;
+	text-decoration: underline;
+}
+
+.dropdown {
+	position: relative;
+	display: in-lineblock;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.3);
+	padding: 0px 16px;
+	z-index:1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+iframe {
+	width: 80%;
+	height: 750px;
+	margin-left: 4em;
+	margin-top: 35px;
+	margin-bottom: 35px;
+
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
