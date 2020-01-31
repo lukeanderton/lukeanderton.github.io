@@ -12,7 +12,7 @@
 }).then(function(text) {
   console.log(text.substring(0, 30));
 });
-    var request1 = new Request('GET https://www.bitcoinabuse.com/api/abuse-types', {
+    var request1 = new Request('https://www.bitcoinabuse.com/api/reports/distinct?api_token=market', {
     method: 'GET'
     
   });
