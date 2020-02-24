@@ -8,6 +8,8 @@ body {
 }
 
 .main {
+	align-items: center;
+	justify-content: center;
 	display: flex;
 }
 
@@ -107,8 +109,10 @@ iframe.pluto {
 }
 
 .row {
-	flex-basis: 1500px;
-	margin: 5px;
+	flex-basis: auto;
+	margin: 7px;
+	max-width: auto;
+
 }
 
 header.row {
