@@ -43,6 +43,11 @@ img {
 	height: 100%;
 }
 
+img.Practicum{
+	width: 70%;
+	height: 70%;
+}
+
 #myPhoto {
 	width: 40%;
 }
