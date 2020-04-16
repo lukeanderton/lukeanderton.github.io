@@ -14,7 +14,6 @@ body {
 }
 
 h1 {
-	color: white;
 	text-align: center;
 }
 
@@ -103,7 +102,7 @@ iframe.pluto {
 
 .column {
 	float: left;
-	width: 30%;
+	width: 32%;
 	margin: 5px;
 }
 
@@ -114,8 +113,8 @@ iframe.pluto {
 }
 
 .row {
-	flex-basis: auto;
-	margin: 7px;
+	flex-basis: center;
+	margin: 0px;
 	max-width: auto;
 
 }
@@ -128,3 +127,4 @@ header.row {
 .icon {
 	margin: 7px;
 }
+
