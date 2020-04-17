@@ -53,10 +53,16 @@ img.Practicum{
 
 a:link{
 	color: #D6D3C4;
+	text-decoration: none;
 }
 
 a:visited{
 	color: #707373;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 .under {
